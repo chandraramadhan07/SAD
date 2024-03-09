@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px 5%;
+}
+
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav .nav-logo {
+    font-size: 20px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+nav ul li a:hover {
+    transition: 0.3s ease;
+    color: grey;
+}
+
+.nav-login {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-login a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-login a:hover {
+    color: grey;
+    transition: 0.3s ease;
+}
+
+
+.regis-btn {
+    border: 1.5px solid white;
+    padding: 5px;
+}
+
+.regis-btn:hover {
+    color: black;
+    transition:  0.3s ease;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading {
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+.container .heading h3 {
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #222;
+    padding-bottom: 10px;
+}
+
+.container .heading h3 span {
+    font-weight: 100;
+
+}
+
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.container .box .gambar {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .gambar img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 769px) {
+    .container .box {
+        flex-direction: column;
+    }
+
+    .container .box .gambar {
+        width: 100%;
+    }
+}

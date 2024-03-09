@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px 5%;
+}
+
+
+nav h2 {
+    margin-right: auto;
+}
+
+nav .nav-logo {
+    font-size: 20px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+nav ul li a:hover {
+    transition: 0.3s ease;
+    color: grey;
+}
+
+.nav-login {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-login a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.nav-login a:hover {
+    color: grey;
+    transition: 0.3s ease;
+}
+
+
+.regis-btn {
+    border: 1.5px solid white;
+    padding: 5px;
+}
+
+.regis-btn:hover {
+    color: black;
+    transition:  0.3s ease;
+    background-color: white;
+}
+
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+width: auto;
+height: 89vh;
+background-color: whitesmoke;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    
+}
+
+.h2utama{
+    display: flex;
+}
